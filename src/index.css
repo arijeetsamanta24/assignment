@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.section1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 20px;
+  column-gap: 0px;
+  text-align: left;
+}
+
+h4{
+  color: red;
+}
+
+.date{
+  color: rgb(107, 103, 103);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ltestStories {
+  background-color: yellow;
+  /* text-align: left; */
+}
